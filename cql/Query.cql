@@ -80,6 +80,7 @@ CREATE KEYSPACE TargetRetail WITH replication = {
 	  register_id text STATIC,
 	  employee_id text STATIC,
 	  employee_name text STATIC,
+	  scan_time timestamp STATIC,
 	  PRIMARY KEY ((receipt_id) ,product_id ));
 	  
 	  
